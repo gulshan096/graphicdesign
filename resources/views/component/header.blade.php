@@ -34,4 +34,13 @@
 
 <link rel="stylesheet" href="{{ asset('assets/css/helper.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
+
+<link rel="icon" href="{{asset('assets2/img/favicon.png')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/fontawesome.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/slick.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/lightgallery.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/animate.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets2/css/style.css')}}" />
+
 {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}

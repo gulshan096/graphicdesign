@@ -2922,6 +2922,9 @@ body:not(.tt-boxed) .tt-section-inner.tt-wrap .tt-grid:not([class*="ttgr-gap-"])
 }
 
 
+.st-testimonial {
+    visibility: visible !important;
+}
 /* tt-Ggrid categories/filter trigger 
 ====================================== */
 .ttgr-cat-trigger-wrap {

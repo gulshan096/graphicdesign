@@ -3,7 +3,7 @@
         <div class="tt-header-col">
 
             <div class="tt-logo">
-                <a href="index.html">
+                <a href="{{ url('/') }}">
 
                     <img src="{{ asset('assets/img/logo-light.png') }}" class="tt-logo-light magnetic-item" alt="Logo">
                     <img src="{{ asset('assets/img/logo-dark.png') }}" class="tt-logo-dark magnetic-item" alt="Logo">
@@ -42,7 +42,7 @@
                                         <ul class="tt-ol-submenu-list">
                                             <li class="tt-ol-submenu-wrap">
                                                 <div class="tt-ol-submenu-trigger">
-                                                    <a href="#" class="tt-ol-submenu-link">Graphic Design</a>
+                                                    <a class="tt-ol-submenu-link">Graphic Design</a>
                                                     <div class="tt-ol-submenu-caret-wrap">
                                                         <div class="tt-ol-submenu-caret magnetic-item">
                                                         </div>
@@ -50,19 +50,19 @@
                                                 </div>
                                                 <div class="tt-ol-submenu">
                                                     <ul class="tt-ol-submenu-list">
-                                                        <li><a href="">Branding and Identity </a></li>
-                                                        <li><a href="">Print Design</a></li>
-                                                        <li><a href="">Digital/Web Design</a></li>
-                                                        <li><a href="">Illustration</a></li>
-                                                        <li><a href="">Advertising</a></li>
-                                                        <li><a href="">Editorial Design</a></li>
-                                                        <li><a href="">Packaging Design</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Branding and Identity </a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Print Design</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Digital/Web Design</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Illustration</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Advertising</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Editorial Design</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Packaging Design</a></li>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li class="tt-ol-submenu-wrap">
                                                 <div class="tt-ol-submenu-trigger">
-                                                    <a href="#" class="tt-ol-submenu-link">Photography</a>
+                                                    <a class="tt-ol-submenu-link">Photography</a>
                                                     <div class="tt-ol-submenu-caret-wrap">
                                                         <div class="tt-ol-submenu-caret magnetic-item">
                                                         </div>
@@ -70,9 +70,9 @@
                                                 </div>
                                                 <div class="tt-ol-submenu">
                                                     <ul class="tt-ol-submenu-list">
-                                                        <li><a href="">Portraits</a></li>
-                                                        <li><a href="">Weddings</a></li>
-                                                        <li><a href="">Product</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Portraits</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Weddings</a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Product</a></li>
                                                     </ul>
                                                 </div>
                                             </li>
