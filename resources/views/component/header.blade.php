@@ -9,6 +9,7 @@
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5S1B0KX911"></script>
 <script>
@@ -36,11 +37,14 @@
 <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
 
 <link rel="icon" href="{{asset('assets2/img/favicon.png')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/fontawesome.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/slick.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/lightgallery.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/animate.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets2/css/style.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/bootstrap.min.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/fontawesome.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/slick.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/lightgallery.min.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/animate.css')}}" />
+<link rel="stylesheet" href="{{asset('assets2/css/style.css')}}" />
 
-{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+<link rel="stylesheet" href="{{asset('assets3/css/customStyle.css')}}" />
+
+{{--
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}

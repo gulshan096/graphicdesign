@@ -1,47 +1,99 @@
-<footer id="tt-footer">
-    <div class="tt-footer-inner">
 
-        <div class="footer-col tt-align-center-left">
-            <div class="footer-col-inner">
-
-                <div class="tt-btn tt-btn-link">
-                    <a href="#" class="scroll-to-top" data-hover="Back to top">Back to top</a>
-                </div>
-            </div>
-        </div>
+<div class="mini-ft-b">
+    <div class="container mini-ft">
+        <p>I am available for freelance work</p>
+        <button><a href="/contact">contact Me</a></button>
+    </div>
+</div>
 
 
-        <div class="footer-col tt-align-center order-m-last">
-            <div class="footer-col-inner">
-                <div class="tt-copyright">
-                    © Copyright - <a href="https://themetorium.net/" target="_blank" rel="noopener"
-                        class="tt-link">Themetorium.net</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="footer-col tt-align-center-right">
-            <div class="footer-col-inner">
-                <div class="footer-social">
-                    <div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
-                    <div class="social-buttons">
-                        <ul>
-                            <li><a href="https://www.facebook.com/themetorium" class="magnetic-item" target="_blank"
-                                    rel="noopener">Fb.</a></li>
-                            <li><a href="https://twitter.com/Themetorium" class="magnetic-item" target="_blank"
-                                    rel="noopener">Tw.</a></li>
-                            <li><a href="https://www.youtube.com/" class="magnetic-item" target="_blank"
-                                    rel="noopener">Yt.</a></li>
-                            <li><a href="https://dribbble.com/Themetorium" class="magnetic-item" target="_blank"
-                                    rel="noopener">Dr.</a></li>
-                            <li><a href="https://www.behance.net/Themetorium" class="magnetic-item" target="_blank"
-                                    rel="noopener">Be.</a></li>
-                        </ul>
+<footer class="footer-04">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-md-0 mb-4">
+                <h2 class="footer-heading contact"><a href="#" class="logo">Contact</a></h2>
+                <div class="ft-left">
+                    <div class="div-1">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <div class="ft-add">
+                            <span class="fw-bold">Contact</span>
+                            <span >+91 - 7828193931</span>
+                        </div>
+                    </div>
+                    <div class="br-line"></div>
+                    <div class="div-1">
+                        <span><i class="fa-regular fa-envelope"></i></span>
+                        <div class="ft-add">
+                            <span class="fw-bold">Email</span>
+                            <span >abhinavkapila@gmail.com</span>
+                        </div>
+                    </div >
+                    <div class="br-line"></div>
+                    <div class="div-1">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <div class="ft-add">
+                            <span class="fw-bold">Location</span>
+                            <span >Pradarshniya Nagar petrol pump , pin - 492001 , Raipur Chhattisgarh</span>
+                        </div>
                     </div>
                 </div>
+                <!-- <p>Pradarshniya Nagar petrol pump</p>
+                    <p>pin - <span>492001</span></p>
+                    <p>Raipur Chhattisgarh</p> -->
+            </div>
+            <div class="col-md-6 col-lg-2 mb-md-0 mb-4">
+                <h2 class="footer-heading">Quick Links</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="py-1 d-block">Home</a></li>
+                    <li><a href="#" class="py-1 d-block">About</a></li>
+                    <li><a href="#" class="py-1 d-block">contact</a></li>
+                    <li><a href="#" class="py-1 d-block">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                <h2 class="footer-heading">Services</h2>
+                <div class="tagcloud">
+                    <a href="#" class="tag-cloud-link">Branding and Identity</a>
+                    <a href="#" class="tag-cloud-link">Print Design</a>
+                    <a href="#" class="tag-cloud-link">Digital/Web Design</a>
+                    <a href="#" class="tag-cloud-link">Illustration </a>
+                    <a href="#" class="tag-cloud-link">Advertising</a>
+                    <a href="#" class="tag-cloud-link">Editorial Design</a>
+                    <a href="#" class="tag-cloud-link">Packaging Design</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                <h2 class="footer-heading">Follow us</h2>
+                <ul class="ftco-footer-social p-0">
+                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
+                            title="Twitter"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
+                            title="Facebook"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
+                            title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
             </div>
         </div>
-
+    </div>
+    <div class="w-100 border-tops py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8">
+                    <p class="copyright text-white">
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-md-right">
+                    <p class="mb-0 list-unstyled">
+                        <a class="mr-md-3 ft-links" href="#">Terms</a>
+                        <a class="mr-md-3 ft-links" href="#">Privacy</a>
+                        <a class="mr-md-3 ft-links" href="#">Compliances</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
