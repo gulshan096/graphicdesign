@@ -5,8 +5,8 @@
             <div class="tt-logo">
                 <a href="{{ url('/') }}">
 
-                    <img src="{{ asset('assets/img/logo-light.png') }}" class="tt-logo-light magnetic-item" alt="Logo">
-                    <img src="{{ asset('assets/img/logo-dark.png') }}" class="tt-logo-dark magnetic-item" alt="Logo">
+                    <img src="{{ asset('assets/img/logo.png') }}" class="tt-logo-light magnetic-item" alt="Logo">
+                    <img src="{{ asset('assets/img/log.png') }}" class="tt-logo-dark magnetic-item" alt="Logo">
                 </a>
             </div>
 
@@ -50,7 +50,8 @@
                                                 </div>
                                                 <div class="tt-ol-submenu">
                                                     <ul class="tt-ol-submenu-list">
-                                                        <li><a href="{{ url('portfolio') }}">Branding and Identity </a></li>
+                                                        <li><a href="{{ url('portfolio') }}">Branding and Identity </a>
+                                                        </li>
                                                         <li><a href="{{ url('portfolio') }}">Print Design</a></li>
                                                         <li><a href="{{ url('portfolio') }}">Digital/Web Design</a></li>
                                                         <li><a href="{{ url('portfolio') }}">Illustration</a></li>

@@ -166,6 +166,10 @@ hr {
 	color: #fff !important;
 }
 
+.serices-text {
+	color: #d3d3d3d6 !important;
+}
+
 /* Selection */
 ::selection {
 	color: #fff;
@@ -2752,7 +2756,7 @@ a.ph-category:hover {
 	display: inline-block;
 }
 
-.st-hero.st-style1 .st-hero-text h1{
+.st-hero.st-style1 .st-hero-text h1 {
 	font-weight: 600 !important;
 }
 
@@ -2925,7 +2929,7 @@ a.ph-category:hover {
 	z-index: 3;
 }
 
-.seaction-border{
+.seaction-border {
 	height: 2px;
 	width: 100%;
 	background-color: rgb(255, 145, 0);

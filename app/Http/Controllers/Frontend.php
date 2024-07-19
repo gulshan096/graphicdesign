@@ -24,4 +24,8 @@ class Frontend extends Controller
     {
         return view('pages.portfolio');
     }
+    public function details()
+    {
+        return view('pages.details');
+    }
 }
