@@ -505,8 +505,9 @@
 </section>
 <!-- End Skill Seciton -->
 
+
 <!-- Start Portfolio Seciton -->
-<section class="st-dark-bg">
+<section class="">
     <div class="st-height-b100 st-height-lg-b80"></div>
     <div class="container">
         <div class="st-section-heading st-style1">
@@ -530,8 +531,6 @@
         <div class="st-height-b25 st-height-lg-b25"></div>
     </div>
 
-    <!-- .slick-container -->
-
     <div class="container">
         <div class="st-slider st-style2">
             <div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -545,7 +544,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                     <div class="slick-slide-in">
                         <div class="st-post-single st-style1">
                             <a class='st-post-thumb st-zoom' href='/about'>
@@ -553,7 +551,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                     <div class="slick-slide-in">
                         <div class="st-post-single st-style1">
                             <a class='st-post-thumb st-zoom' href='/about'>
@@ -561,7 +558,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                     <div class="slick-slide-in">
                         <div class="st-post-single st-style1">
                             <a class='st-post-thumb st-zoom' href='/about'>
@@ -569,7 +565,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                     <div class="slick-slide-in">
                         <div class="st-post-single st-style1">
                             <a class='st-post-thumb st-zoom' href='/about'>
@@ -577,7 +572,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                     <div class="slick-slide-in">
                         <div class="st-post-single st-style1">
                             <a class='st-post-thumb st-zoom' href='/about'>
@@ -585,14 +579,10 @@
                             </a>
                         </div>
                     </div>
-                    <!-- .slick-slide-in -->
                 </div>
             </div>
-            <!-- .slick-container -->
             <div class="pagination st-style1 st-flex st-hidden"></div>
-            <!-- If dont need Pagination then add class .st-hidden -->
         </div>
-        <!-- .st-slider -->
     </div>
     <!-- Photography section ends -->
 
@@ -601,15 +591,14 @@
         <div class="seaction-border"></div>
         <br>
     </div>
-    <!--Graphic Design section starts -->
+
+    <!-- Graphic Design section starts -->
     <div class="container">
         <div class="st-section-heading st-style1">
             <h5 class="st-section-heading-title st-photo">Graphic Design</h5>
         </div>
         <div class="st-height-b25 st-height-lg-b25"></div>
     </div>
-
-    <!-- .slick-container -->
 
     <div class="container">
         <div class="st-slider st-style2">
@@ -675,28 +664,15 @@
     </div>
     <!-- Graphic Design section ends -->
 
-    <div class="container">
-        <br>
-        <div class="seaction-border"></div>
-        <br>
-    </div>
-
     <div class="pagination st-style1 st-flex st-hidden"></div>
-    <!-- If dont need Pagination then add class .st-hidden -->
     <div class="swipe-arrow st-style1 st-hidden">
-        <!-- If dont need navigation then add class .st-hidden -->
         <div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
         <div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
     </div>
-    </div>
-    <!-- .st-slider -->
-    </div>
-    <!-- Photography section ends -->
-
 
 </section>
-<!-- End Portfolio Seciton -->
 
+<!-- End Portfolio Seciton -->
 <!-- Start Resume Seciton -->
 <section id="resume" class="st-dark-bg">
     <div class="st-height-b100 st-height-lg-b80"></div>
