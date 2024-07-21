@@ -1,3 +1,12 @@
+@php
+    use Illuminate\Support\Facades\DB;
+
+    $category = DB::table('category')->get();
+    $subcategory = DB::table('subcategory')->get();
+
+@endphp
+
+
 <header id="tt-header" class="tt-header-fixed">
     <div class="tt-header-inner">
         <div class="tt-header-col">
@@ -40,43 +49,30 @@
                                     </div>
                                     <div class="tt-ol-submenu">
                                         <ul class="tt-ol-submenu-list">
-                                            <li class="tt-ol-submenu-wrap">
-                                                <div class="tt-ol-submenu-trigger">
-                                                    <a class="tt-ol-submenu-link">Graphic Design</a>
-                                                    <div class="tt-ol-submenu-caret-wrap">
-                                                        <div class="tt-ol-submenu-caret magnetic-item">
+
+                                            @foreach ($category as $item)
+                                                <li class="tt-ol-submenu-wrap">
+                                                    <div class="tt-ol-submenu-trigger">
+                                                        <a href="javascript::void(0)"
+                                                            class="tt-ol-submenu-link">{{ $item->name }}</a>
+                                                        <div class="tt-ol-submenu-caret-wrap">
+                                                            <div class="tt-ol-submenu-caret magnetic-item">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="tt-ol-submenu">
-                                                    <ul class="tt-ol-submenu-list">
-                                                        <li><a href="{{ url('portfolio') }}">Branding and Identity </a>
-                                                        </li>
-                                                        <li><a href="{{ url('portfolio') }}">Print Design</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Digital/Web Design</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Illustration</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Advertising</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Editorial Design</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Packaging Design</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li class="tt-ol-submenu-wrap">
-                                                <div class="tt-ol-submenu-trigger">
-                                                    <a class="tt-ol-submenu-link">Photography</a>
-                                                    <div class="tt-ol-submenu-caret-wrap">
-                                                        <div class="tt-ol-submenu-caret magnetic-item">
-                                                        </div>
+                                                    <div class="tt-ol-submenu">
+                                                        <ul class="tt-ol-submenu-list">
+                                                            @foreach ($subcategory as $subitem)
+                                                                @if ($subitem->cid === $item->id)
+                                                                    <li><a href="{{ url('portfolio') }}">{{ $subitem->sub_cat_name }}
+                                                                        </a>
+                                                                    </li>
+                                                                @endif
+                                                            @endforeach
+                                                        </ul>
                                                     </div>
-                                                </div>
-                                                <div class="tt-ol-submenu">
-                                                    <ul class="tt-ol-submenu-list">
-                                                        <li><a href="{{ url('portfolio') }}">Portraits</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Weddings</a></li>
-                                                        <li><a href="{{ url('portfolio') }}">Product</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
+                                                </li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                 </li>

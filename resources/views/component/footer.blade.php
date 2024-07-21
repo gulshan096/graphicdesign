@@ -31,7 +31,7 @@
                         <span><i class="fa-solid fa-location-dot"></i></span>
                         <div class="ft-add">
                             <span class="fw-bold">Location</span>
-                            <span>Pradarshniya Nagar petrol pump , pin - 492001 , Raipur Chhattisgarh</span>
+                            <span>Brampton, ON Canada</span>
                         </div>
                     </div>
                 </div>
@@ -64,12 +64,18 @@
 
                 <h2 class="footer-heading">Follow us</h2>
                 <ul class="ftco-footer-social p-0">
-                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
-                            title="Twitter"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
-                            title="Facebook"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="ftco-animate border-none"><a href="#" data-toggle="tooltip" data-placement="top"
-                            title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="ftco-animate border-none"><a href="https://www.behance.net/abhinavdesignhub"
+                            target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                class="fa-brands fa-behance"></i>
+                    <li class="ftco-animate border-none"><a href="https://www.facebook.com/abhinavdesignhub/"
+                            target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li class="ftco-animate border-none"><a href="https://www.linkedin.com/in/abhinavkapila/"
+                            target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="ftco-animate border-none"><a href="https://www.instagram.com/abhinavdesignhub/"
+                            target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a></li>
                 </ul>
 
                 <div class="w-50 mt-5 pt-2">
